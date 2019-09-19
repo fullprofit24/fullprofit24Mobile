@@ -189,10 +189,10 @@ body {
 	transition-delay: 0.1s;
 }
 .menu-open .icon-container #menuicon .bar.bar1 {
-	-webkit-transform: translateY(4px) rotate(45deg);
-	transform: translateY(4px) rotate(45deg);
+	-webkit-transform: translate(-6px, 4px) rotate(45deg);
+	transform: translate(-6px, 4px) rotate(45deg);
 }
 .menu-open .icon-container #menuicon .bar.bar2 {
-	-webkit-transform: translateY(3px) rotate(-45deg);
-	transform: translateY(3px) rotate(-45deg);
+	-webkit-transform: translate(-6px, 3px) rotate(-45deg);
+	transform: translate(-6px, 3px) rotate(-45deg);
 }
