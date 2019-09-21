@@ -16,5 +16,5 @@ function refireAnim(anim) {
     document.querySelector('.buttonMsg').classList.remove(anim);
     setTimeout(function() {
         document.querySelector('.buttonMsg').classList.add(anim);
-    }, 1000);
+    }, 0);
 }
