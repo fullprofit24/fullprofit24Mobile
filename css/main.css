@@ -209,7 +209,7 @@ body {
   text-align:center;
   font-size:48px;
   display: inline-block;
-  transform: rotate3d(0.1,1,0, 180deg);
+  transform: rotate3d(0.15,1,0, 180deg);
   background: rgba(0, 0, 0, 0.9);
   border-radius: 38px;  
   text-decoration: none;
@@ -224,31 +224,31 @@ body {
 
 @keyframes rubberBand {
   from {
-    transform: scale3d(1, 1, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(1, 1, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   30% {
-    transform: scale3d(1.25, 0.75, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(1.25, 0.75, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   40% {
-    transform: scale3d(0.75, 1.25, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(0.75, 1.25, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   50% {
-    transform: scale3d(1.15, 0.85, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(1.15, 0.85, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   65% {
-    transform: scale3d(.95, 1.05, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(.95, 1.05, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   75% {
-    transform: scale3d(1.05, .95, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(1.05, .95, 1) rotate3d(0.15,1,0, 180deg);
   }
 
   to {
-    transform: scale3d(1, 1, 1) rotate3d(0.1,1,0, 180deg);
+    transform: scale3d(1, 1, 1) rotate3d(0.15,1,0, 180deg);
   }
 }
 
