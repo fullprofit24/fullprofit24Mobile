@@ -200,7 +200,7 @@ body {
 
 /* send message button */
 
-a.buttonMsg {
+.buttonMsg {
   position: fixed;
   right:24px;
   bottom:32px;
@@ -218,7 +218,7 @@ a.buttonMsg {
   animation-iteration-count: 1;
 }
 
-a.buttonMsg:hover {
+.buttonMsg:focus {
   animation-name: rubberBand;
 }
 
