@@ -218,7 +218,7 @@ body {
   animation-iteration-count: 1;
 }
 
-.buttonMsg:focus {
+.buttonMsg:hover {
   animation-name: rubberBand;
 }
 
